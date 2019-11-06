@@ -68,9 +68,10 @@ body {
     box-sizing: border-box;
     padding: 10px;
     background-color: var(--main-color);
-    overflow: hidden;
+    overflow: auto;
     height: 100%;
     font-weight: 600;
+    
 }
 
 .rooms-list > ul {
@@ -229,8 +230,8 @@ body {
     cursor: pointer;
     border: none;
     background-color: #5A9ED2;
-    border-radius:50px;
-    margin:9px;
+    border-radius:10px;
+    padding:5px;
 }
 
 .button-message:disabled {
@@ -248,7 +249,7 @@ body {
     cursor: pointer;
 }
 #send {
-    height:40px;
-    padding-left:5px;
+    height:35px;
+    margin-left:1px;
     outline: none;
 }
